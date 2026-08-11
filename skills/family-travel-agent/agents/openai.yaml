@@ -1,0 +1,6 @@
+interface:
+  display_name: "Family Travel Agent"
+  short_description: "Plan family travel across destinations"
+  default_prompt: "Use $family-travel-agent to plan this family trip from confirmed preferences, destination modules, and current evidence."
+policy:
+  allow_implicit_invocation: true

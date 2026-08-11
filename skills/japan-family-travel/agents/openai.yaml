@@ -1,0 +1,6 @@
+interface:
+  display_name: "Japan Family Travel (Compatibility)"
+  short_description: "Route Japan trips to Family Travel Agent"
+  default_prompt: "Use $japan-family-travel as the compatibility entry for $family-travel-agent with the Japan destination module."
+policy:
+  allow_implicit_invocation: true
