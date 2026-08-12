@@ -10,6 +10,7 @@ AGENT_YAML = SKILL_ROOT / "agents" / "openai.yaml"
 CORE_REFERENCES = (
     "evidence-and-needs-discovery.md",
     "experience-planning.md",
+    "family-itinerary-pdf-layout.md",
     "itinerary-workflow.md",
     "reservation-workflow.md",
     "shopping-and-dining.md",

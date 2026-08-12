@@ -57,6 +57,7 @@ class PackageContractTests(unittest.TestCase):
             "agents/openai.yaml",
             "references/evidence-and-needs-discovery.md",
             "references/experience-planning.md",
+            "references/family-itinerary-pdf-layout.md",
             "references/itinerary-workflow.md",
             "references/reservation-workflow.md",
             "references/shopping-and-dining.md",

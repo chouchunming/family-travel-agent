@@ -47,6 +47,8 @@ discovery contract and never borrow another country's conventions.
   [traveler profile and history](references/traveler-profile-and-history.md)
 - Immutable alternatives, lineage, and complete budget ledgers:
   [versioned trip plans and budgets](references/versioned-trip-plans-and-budgets.md)
+- Mobile-readable family itinerary PDF layout and visual QA:
+  [family itinerary PDF layout](references/family-itinerary-pdf-layout.md)
 
 Read only the references required for the current request, plus the destination
 index and applicable modules.

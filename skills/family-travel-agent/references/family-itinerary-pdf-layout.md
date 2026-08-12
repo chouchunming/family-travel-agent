@@ -1,0 +1,135 @@
+# Family Itinerary PDF Layout
+
+Use this contract when creating or redesigning a family-facing itinerary PDF,
+especially when it must remain readable on a phone. Preserve the trip plan as
+the source of truth; layout work must not silently alter itinerary facts.
+
+## Information architecture
+
+1. Use portrait pages by default. Prefer A4 unless the user names another size.
+2. Begin with a quiet cover, then a one-page reading guide and trip anchors.
+3. Give each travel date its own execution page. Never place two normal days on
+   one page merely to reduce page count.
+4. Put secondary decision material after the daily pages: route menus,
+   reservation or publication status, budget, and open loops.
+5. Repeat field-critical information on the day where it is used even when it
+   also appears in an appendix.
+
+## Daily execution page
+
+Use this visual hierarchy:
+
+1. A high-contrast day banner with day number, date, weekday, and short theme.
+2. A compact strip for lodging, party split, and the day's main objective.
+3. A warning or hard-anchor card for fixed times and unresolved dependencies.
+4. A vertical timeline or stacked itinerary rows with a suggested arrival and
+   departure time for every stop, place, action, transport, duration, status,
+   and a tappable Google Maps link. Avoid wide spreadsheet-style tables.
+5. A three-meal block for breakfast, lunch, and dinner candidates.
+6. A short reminder block containing only items needed to execute that day.
+
+Every retained baseline and backup route must have its own executable timeline.
+Do not give the baseline stop-by-stop times while leaving B/C alternatives as
+one-line summaries. When the same backup can move across dates, deduplicate it
+into a route menu and state its suitable dates, unsuitable dates, and activation
+conditions instead of printing it once per day. Put that menu on adjacent
+execution pages rather than shrinking the main day page.
+
+For split-party days, show each party in clearly labeled cards. If one traveler
+chooses among several reusable routes, keep the base day page concise and place
+one deduplicated route menu in an appendix instead of repeating the same options
+under every date. Expand each route into an executable stop-by-stop timeline
+with suggested times and map links, and list the unsuitable dates with reasons
+such as closure risk, fixed seasonal events, duplication, recovery needs, or a
+family reunion deadline. A route sequence and prose description alone are not
+sufficient.
+
+## Time and map-link contract
+
+- Give every baseline stop a useful time or time range. Include origin,
+  transfers that require action, meals, lodging handoff, and the final return;
+  omit only passive pass-through points.
+- Label planning values as `建議`, historical timetable values as `舊季參考`,
+  and evidence-backed fixed times as `已確認`. Never present an unpublished
+  departure as a fixed time.
+- Include realistic walking, parking, station, restroom, meal, luggage, child
+  or elder, and winter-weather buffers. If a day still depends on an unknown
+  timetable, show a planning skeleton and state which times must be rebuilt.
+- Make the place name itself a tappable Google Maps URL. Prefer an official
+  Maps place URL or a Maps search URL using the full unambiguous local-script
+  place name and city.
+- For driving, link to the verified visitor parking lot, vehicle entrance, or
+  rental return entrance rather than a building center. If that target has not
+  been verified, label the link `入口待確認` and do not invent coordinates or
+  destination-specific navigation identifiers.
+- Check that PDF link annotations exist and open as HTTPS URLs. Printed copies
+  should still show enough place text to search manually; never display only a
+  generic label such as `地圖`.
+
+## Typography and density
+
+- Use an embedded CJK font when the itinerary contains CJK text.
+- Target at least 9 pt body text and 11 pt card headings; use 7.5 pt only for a
+  compact appendix whose text remains legible after rendering.
+- Keep line length short through stacked cards and two-column blocks. Do not use
+  landscape orientation to rescue an over-wide table.
+- Use 12–15 mm page margins and stable footer placement.
+- Use one restrained palette: dark title color, one accent, one warning color,
+  pale card backgrounds, and neutral rules. Color may reinforce but never be
+  the only status signal.
+- Prefer whitespace and page breaks over shrinking an entire page.
+
+## Attraction field guide
+
+Create one deduplicated field-guide entry for every actual attraction retained
+in a baseline or backup route. Link or name that entry from the relevant day;
+do not repeat the full description under every occurrence.
+
+Each entry must contain:
+
+- **Must-see / photo point:** the defining view, exhibit, street, room, or
+  sequence worth prioritizing. Distinguish an official or well-established
+  viewpoint from a planning recommendation, and never encourage entry into a
+  closed, private, exposed, or traffic-conflicted area for a photograph.
+- **Atmosphere:** a short sensory description that sets family expectations,
+  such as quiet, crowded, contemplative, commercial, exposed, indoors, or
+  weather-dependent. Include a realistic dwell pattern when useful.
+- **Attention:** stamina, stairs, slope, walking distance, accessibility,
+  footwear, weather exposure, child or elder fit, reservation, timed entry,
+  last admission, closure, photography, food, or language constraints that can
+  change whether the stop is suitable.
+
+Attach a source and check date to changeable access, reservation, operating,
+and restriction claims. If evidence is missing, say what must be checked rather
+than inventing a highlight or rule.
+
+## Status language
+
+Display exact decision-relevant states in plain language: confirmed, candidate,
+not published, site access blocked, dynamically unverified, unknown, and needs
+verification. Do not expose sandbox policy, browser engines, automation tools,
+HTTP retries, or internal debugging narration in a family-facing PDF.
+
+Never turn a candidate, historical timetable, searchable listing, estimate, or
+request into a confirmation. Put check dates beside time-sensitive prices and
+schedules. Do not invent content to fill an empty card.
+
+## Privacy and external-action boundary
+
+Generate a family-facing copy without booking-management links, payment data,
+or traveler identifiers unless the user explicitly requests a private execution
+document. Rendering never authorizes booking, payment, email, form submission,
+or disclosure of traveler data.
+
+## Quality gates
+
+Before replacing or handing off a PDF:
+
+1. Validate page size, page count, metadata, and embedded fonts.
+2. Extract text and assert every trip date and hard anchor is present.
+3. Assert forbidden internal narration and disallowed private values are absent.
+4. Render every page to images and inspect the cover, a normal day, the densest
+   day, a split-party day, and each appendix type. Check all remaining pages for
+   clipping, overflow, empty pages, tiny text, and broken glyphs.
+5. Keep the prior PDF until the replacement passes these gates. Use a distinct
+   output filename when the user may want to compare versions.
