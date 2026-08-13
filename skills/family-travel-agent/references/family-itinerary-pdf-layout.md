@@ -85,6 +85,30 @@ Create one deduplicated field-guide entry for every actual attraction retained
 in a baseline or backup route. Link or name that entry from the relevant day;
 do not repeat the full description under every occurrence.
 
+Use two levels of field-guide card so the document spends detail where it
+changes execution:
+
+- **Core attraction — complete card:** explain why it is worth the family's
+  time, then give the actual walking/visit sequence, safe photo positions and
+  shooting direction, quick/standard/deep dwell times, and family fit for
+  stamina, outdoor exposure, wet-weather fallback, teen interest, and elder
+  accessibility. Add seasonal or on-site difficulties, what to retain and cut
+  when late, and evidence-dated reservation, opening, closure, and last-entry
+  facts. End embedded photos with Chinese captions and a reminder that a
+  representative view does not guarantee identical weather, foliage, snow,
+  crowds, exhibits, or visibility on the visit date.
+- **Backup attraction — compact card:** retain only why it is useful, visit
+  order, standard dwell time, stamina/outdoor/weather fit, activation and
+  cancellation conditions, and reservation state. Pack four to six compact
+  cards per page in two columns when they remain readable. Promote a backup to
+  a complete card if it becomes a fixed anchor or has meaningful safety,
+  accessibility, or reservation complexity.
+
+Write these as operational cards, not generic encyclopedia descriptions. If
+the evidence cannot support a precise visit order, safe photo position, last
+entry, or accessibility claim, label it for recheck instead of filling the
+field with an assumption.
+
 Each entry must contain:
 
 - **Must-see / photo point:** the defining view, exhibit, street, room, or

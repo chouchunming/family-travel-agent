@@ -40,16 +40,23 @@ fallback. Do not order, reserve, pay, or message without explicit approval.
 ## Restaurant dish and photo guide
 
 For a family-facing illustrated itinerary, give every retained restaurant or
-route-relevant dining stop a compact guide containing:
+route-relevant dining stop a **meal decision card** containing:
 
 - the exact branch or an explicit `branch-not-selected` label;
-- one to three recommended dishes, including the local-language dish name when
+- two or three recommended dishes, including the local-language dish name when
   useful, why it is representative, portion or sharing fit, and known dietary,
   raw-food, alcohol, spice, bone, shell, or allergen cautions;
+- the first-order priority for a first visit, per-person budget, and whether
+  the meal is better ordered individually or shared;
+- minor suitability and known smoking status, without treating an absence of
+  evidence as confirmation;
 - reservation status using exact language: walk-in likely, reservation
   recommended, reservation required, not yet open, unknown, or confirmed;
-- the reservation channel, target booking window, cancellation/no-show terms,
-  last order, smoking/age rules, and check date when these affect execution;
+- the reservation channel, target booking window, suggested arrival time,
+  queue risk, cancellation/no-show terms, last order, and check date when these
+  affect execution;
+- a nearby route-compatible substitute and the delay or queue condition that
+  activates it;
 - one restaurant/interior or storefront image and one signature-dish image only
   when the target restaurant or target branch publishes suitable promotional
   photos through its official website or official social account. Prefer the
@@ -71,3 +78,8 @@ menus, daily seafood, presentation, serving vessel, portion, and price may
 change; label representative photos accordingly and recheck the target date.
 If the branch is not fixed, recommend the cuisine and dish first, then defer
 branch-specific photos and reservation claims until selection.
+
+The card is a decision aid, not a menu transcription. Prefer the two or three
+dishes that clarify what the family should order, and explicitly mark price,
+menu, last-order, smoking, allergy handling, and reservation facts that still
+need a current official recheck.
