@@ -36,3 +36,38 @@ confirmed reservations or inventory holds.
 For each option state route fit, verified branch facts and date, time allowance,
 access, booking or stock state, destination-specific cautions, and one
 fallback. Do not order, reserve, pay, or message without explicit approval.
+
+## Restaurant dish and photo guide
+
+For a family-facing illustrated itinerary, give every retained restaurant or
+route-relevant dining stop a compact guide containing:
+
+- the exact branch or an explicit `branch-not-selected` label;
+- one to three recommended dishes, including the local-language dish name when
+  useful, why it is representative, portion or sharing fit, and known dietary,
+  raw-food, alcohol, spice, bone, shell, or allergen cautions;
+- reservation status using exact language: walk-in likely, reservation
+  recommended, reservation required, not yet open, unknown, or confirmed;
+- the reservation channel, target booking window, cancellation/no-show terms,
+  last order, smoking/age rules, and check date when these affect execution;
+- one restaurant/interior or storefront image and one signature-dish image only
+  when the target restaurant or target branch publishes suitable promotional
+  photos through its official website or official social account. Prefer the
+  exact branch and exact dish. Do not substitute a generic cuisine image, an
+  image from another restaurant, an aggregator/customer upload, stock media, or
+  an unknown source merely to fill space. When no suitable official promotional
+  image exists, omit the image and retain the dish recommendation, reservation
+  state, and official link.
+
+For restaurant imagery, use only official restaurant or branch pages and
+official social accounts with stable public posts. Record image page URL,
+publisher, reuse basis, and retrieval date. Do not copy search thumbnails,
+aggregator or review photos, remove watermarks, or assume that publicly
+viewable imagery is reusable. When reuse rights are unclear, use a linked
+official source-page card rather than embedding the image.
+
+Separate a researched recommended dish from confirmed availability. Seasonal
+menus, daily seafood, presentation, serving vessel, portion, and price may
+change; label representative photos accordingly and recheck the target date.
+If the branch is not fixed, recommend the cuisine and dish first, then defer
+branch-specific photos and reservation claims until selection.

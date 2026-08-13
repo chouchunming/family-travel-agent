@@ -103,6 +103,68 @@ Attach a source and check date to changeable access, reservation, operating,
 and restriction claims. If evidence is missing, say what must be checked rather
 than inventing a highlight or rule.
 
+### Attraction photo plates
+
+When the user requests an illustrated itinerary, add a deduplicated photo plate
+to each retained attraction entry. Prefer two representative real-world images
+that help the family recognize the place: one defining overview and one detail,
+seasonal view, or signature photo point. Use one image only when a second image
+adds no execution value; use more only when the attraction has materially
+different zones that the itinerary actually retains.
+
+- Prefer official venue, tourism-board, government, or clearly licensed open
+  media. Record the page URL, creator when supplied, license or reuse basis, and
+  retrieval date. A public URL is not by itself permission to copy an image.
+- Do not copy search-result thumbnails, hotlink unstable image URLs, remove
+  watermarks, or present generated or stock imagery as documentary evidence.
+  If reuse permission is unclear, provide a linked preview card or source-page
+  link instead of embedding the image.
+- Caption what the image shows and whether it is a current, seasonal, archival,
+  or representative view. Do not imply that snow, foliage, illumination,
+  crowds, visibility, exhibits, or food presentation will match the travel day.
+- Crop without distorting or obscuring safety context. Keep attribution and
+  source links legible in the PDF, and preserve enough resolution for phone
+  viewing without inflating the file unnecessarily.
+- Treat photo selection as navigation support, not decoration: align each image
+  with the must-see/photo point, atmosphere, or an entrance/terrain caution.
+
+Place attraction photo plates after the dated execution pages, adjacent to the
+deduplicated attraction field guide. Do not place full attraction galleries on
+daily pages when they would compete with times, maps, transport, or warnings.
+
+Pack field-guide pages by measured content density rather than a fixed number
+of attractions per page. Avoid leaving a half or more of a page blank merely
+because the next entry belongs to a predetermined pair. Keep illustrated
+entries together when practical; combine one illustrated entry with one or
+more compact text-only entries when they fit. Arrange text-only entries in a
+two-column grid or place several sequentially on one page. Let the document
+engine flow a final entry to the next page when needed instead of inserting a
+page break after every fixed-size batch.
+
+Reduce whitespace before reducing type size. Tighten card spacing, captions,
+and repeated guide instructions first, while keeping body text near 9 pt and
+captions legible on a phone. Do not stretch photos, split a photo from its
+attribution, orphan a heading, or compress safety and reservation cautions to
+fill a page. During visual QA, flag guide pages with large avoidable blank areas
+and repack them; intentional whitespace on a final short page is acceptable
+only when the remaining entry cannot safely share the preceding page.
+
+### Daily meal photos without pagination drift
+
+When each normal date must remain exactly one page, use only the otherwise
+unused lower portion of that date's execution page for recommended-dish photos.
+Keep the timeline, three-meal text, warnings, and map links at their normal
+minimum sizes. Add one or two compact dish images only when they fit without
+moving any execution content to another page; otherwise reduce the image count
+or omit images for that day. Never shrink the whole page, split one date across
+pages, or let decorative images create a second page for the same date.
+
+Caption each daily dish image with the exact restaurant or branch, recommended
+dish, reservation state, and official promotional source. Use no generic or
+unknown-source substitute when an official restaurant photo is unavailable.
+The photo may illustrate a recommended dish but never turns an unverified menu
+item or restaurant booking into confirmation.
+
 ## Status language
 
 Display exact decision-relevant states in plain language: confirmed, candidate,
